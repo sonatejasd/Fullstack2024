@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="server.js">
+        <div>
+            <input type="text" placeholder="Enter your name" id="name" name="name">
+        </div>
+        <div>
+            <input type="email" placeholder="Enter your email address" id="email" name="email">
+        </div>
+        <div>
+            <label for="date">Enter yor dob</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+        <div>
+            <p>select languages known</p>
+            <label for="english">English</label>
+            <input type="checkbox" name="language1" id="english" value="english">
+            <label for="hindi">Hindi</label>
+            <input type="checkbox" name="language2" id="hindi" value="hindi">
+        </div>
+        <div>
+            <label for="bikes">select bike</label>
+            <select name="bikes" id="bikes">
+                <option value="royal enfield">royal enfield</option>
+                <option value="duke">duke</option>
+                <option value="avn">avn</option>
+            </select>
+        </div>
+        <div>
+            <label for="cars">Choose a car:</label>
+            <select name="cars" id="cars" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+            </select>
+        </div>
+        <div>
+            <label for="flower">Selectflower</label>
+            <select name="flower" id="flower">
+                <option value="--select a flower--">--select flower--</option>
+                <option value="rose">rose</option>
+                <option value="marigold">marigold</option>
+            </select>
+        </div>
+        <div>
+            <label for="country">SelectCountry</label>
+            <input name="country" id="country" type="text" placeholder="Select country" list="countrieslist">
+            <datalist id="countrieslist">
+                <option value="India">
+                <option value="Indiana">
+                <option value="West Indies">
+                <option value="South Africa">
+            </datalist>
+        </div>
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+
+        <button type="submit" id="button" class="btn btn-primary">Submit</button>
+    </form>
+</body>
+</html>

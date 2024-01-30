@@ -1,0 +1,46 @@
+body{
+    background: #8fb0b0;
+}
+header{
+    text-align: center;
+    color:white
+}
+footer{
+    text-align: center;
+    color:white 
+}
+#wrapper{
+    margin-left: 3%;
+    display:inline-block
+}
+
+.city{
+    height:400px;
+    width:20%;
+    float: left;
+    margin:2%;
+    background-color: rgb(136 144 107);
+    color: rgb(249, 8, 8)
+    
+}
+.mumbai{
+    background-color: rgb(175 158 144)
+}
+
+.bangalore{
+    background-color: #b0a58f
+}
+.delhi{
+    background-color: #93857c;
+}
+.city>img{
+    height:75%; width:100%
+}
+.city>div>p{
+    text-align: center;
+    font-weight: bold;
+}
+.city>div{
+    height:25%; width:100%;
+    overflow:scroll;
+}

@@ -1,0 +1,142 @@
+header{
+    height: 50px;
+    width:100%;
+    background-color: brown;
+}
+body{
+    margin:auto
+}
+/* footer{
+    height: 100px;
+    width:100%;
+    background-color: brown;
+    
+} */
+#quickSearch{
+    height: 500px;
+    width:100%;
+    background-image: url("https://raw.githubusercontent.com/Aakashdeveloper/nov_react_mrng_22/master/css/Homepage/images/foodWallpaper.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#categorySearch{
+    width:80%;
+    margin-left:11%;
+    position:absolute;
+    background-color: rgb(252, 147, 147);
+    /*height:550px;*/
+}
+#button{
+    float:right;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+#brand{
+    float:left;
+    margin-top: 1%;
+    font-weight: bold;
+    font-size: 20;
+    color: azure;
+    margin-left: 2%;
+}
+#logo{
+    height: 150px;
+    width:10%;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left:45%;
+    position:absolute;
+}
+#logo>p{
+    margin-left:33%;
+    font-size: 50px;
+}
+#searchTitle{
+    margin-left:38%;
+    margin-top:18%;
+    font-size: 30px;
+    position:absolute;
+    color:white;
+    font-weight: bold;
+}
+#select{
+    margin-left:36%;
+    margin-top:23%;
+    position:absolute;  
+    height:40px;
+    width:30%
+}
+#location{
+    height:100%;
+    width:50%;
+    text-align: center;
+}
+#restaurants{
+    height:100%;
+    width:50%;
+    float:right;
+    text-align: center;
+}
+#categorySearch>p{
+    font-weight: bold;
+    margin-left:1%;
+}
+#cuisine{
+    height:500px;
+    width:100%;
+    
+}
+#cuisineContainer{
+    box-shadow: 10px 20px 10px #3b2632;;
+    height:200px;
+    width: 30%;
+    border:2px solid black;
+    /*float:left;*/
+    display:inline-block;
+    margin:1%
+}
+#cuisineImage>img{
+    width:50%;
+    height:200px;
+    float:left
+}
+#cuisineDescription{
+    width:40%;
+    height:200px;
+    /*float:left;*/
+    display:inline-block;
+    margin-left: 10%;
+    margin-top:20%;
+    font-weight: bold;
+}
+#cuisineDescription>a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1600px) {
+    body{
+        background-color: burlywood;
+    }
+}
+@media screen and (max-width:1400px) {
+    body{
+        background-color: aquamarine;
+    }
+}
+@media screen and (max-width:1200px) {
+    body{
+        background-color:blueviolet
+    }
+}
+@media screen and (max-width:800px) {
+    body{
+        background-color: cadetblue;
+    }
+}
+@media screen and (max-width:600px) {
+    body{
+        background-color: darkgoldenrod;
+    }
+}

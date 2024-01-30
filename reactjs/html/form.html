@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="icon" href="./images/favicon.png" type="image/png"></link> 
+</head>
+<body>
+    <h2>This webpage is about html forms</h2>
+    <form action="server.js" method="get">
+        <label for="name">Name
+            <input type="text" name="fn" id="name">
+        </label>
+        <br><br>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" placeholder="Age">
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+        <label for="time">Time of Birth</label>
+        <input type="time" name="time" id="time">
+        <br><br>
+        <label for="death">Death date and time</label>
+        <input type="datetime-local" name="death" id="death">
+        <br><br>
+        <label for="pic">Passport size picture</label>
+        <input type="file" name="pic" id="pic">
+        <input type="hidden" name="dead" value="true">
+        <br><br>
+        <label>Gender: </label>
+        <label for="m">Male</label>
+        <input type="radio" name="male" id="m" value="male">
+        <label for="f">Female</label>
+        <input type="radio" name="female" id="f" value="female">
+        <br><br>
+        <label for="location">Search location</label>
+        <input type="search" name="search" id="location">
+        <p>Select hobbies:</p>
+        <label for="hobbies">Badminton</label>
+        <input type="checkbox" name="hobbies1" id="hobbies1" value="badminton">
+        <label for="hobbies">Dance</label>
+        <input type="checkbox" name="hobbies2" id="hobbies2" value="dance">
+        <label for="hobbies">Trekking</label>
+        <input type="checkbox" name="hobbies3" id="hobbies2" value="trekking">
+        <br><br>
+        <label for="color">Select your favorite color</label>
+        <input type="color" name="color" id="color" value="black">
+        <br><br>
+        <br><br>
+        <!-- <input type="submit" id="submit" value="submit" -->
+        <input type="image" name="image" id="image" src="https://www.w3schools.com/tags/img_submit.gif">
+        <input type="reset" name="reset" id="reset" value="reset">
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylesheet</title>
+    <link rel="icon"  href="../reactjs/public/favicon.ico" type="image/x-icon"/>
+    <style>
+        body{
+            background: #8fb0b0;
+        }
+        header{
+            text-align: center;
+            color:white
+        }
+        #wrapper{
+            margin-left: 3%;
+        }
+        
+        .city{
+            height:400px;
+            width:20%;
+            float: left;
+            margin:2%;
+            background-color: rgb(136 144 107);
+            color: rgb(249, 8, 8)
+            
+        }
+        .mumbai{
+            background-color: rgb(175 158 144)
+        }
+        
+        .bangalore{
+            background-color: #b0a58f
+        }
+        .delhi{
+            background-color: #93857c;
+        }
+        .city>img{
+            height:75%; width:100%
+        }
+        .city>p{
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Indian cities using STYLESHEET</h1>
+    <hr>
+    </header>
+    
+   <div id="wrapper">
+    <div class="city delhi">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/India_Gate_2014-11-01.jpg/320px-India_Gate_2014-11-01.jpg" alt="delhi" title="delhi">
+        <p>Delhi is the capital city of India</p>
+    </div>
+    <div class="city mumbai">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/800px-Mumbai_03-2016_30_Gateway_of_India.jpg" alt="mumbai" title="mumbai">
+        <p>Mumbai is the financial capital of India</p>
+    </div>
+    <div class="city bangalore">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Vidhana_Soudha_2012.jpg/1280px-Vidhana_Soudha_2012.jpg" title="bangalore" alt="bangalore" >
+        <p>Bangalore is the IT hub of India</p>
+    </div>
+    <div class="city payyanur">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Payyanur.jpg" title="payyanur" alt="payyanur" >
+        <p>Payyanur is my birth place</p>
+    </div>
+   </div> 
+</body>
+</html>
